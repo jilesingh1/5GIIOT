@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+#cd $(dirname ${0})
+
+cd ..
+
+./prep-env.sh
+
+cd 5Gfinal
+
+cd SensorExample
+
+PYTHONPATH=${PYTHONPATH}:src exec python -m sensorexample $@
