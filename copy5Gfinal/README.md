@@ -14,7 +14,7 @@ execute in a separate terminal:
 ## Start the actuator
 execute in a separate terminal:  
 ```./apps/actuator-example -v```  
-Note the spelling of actuator. Did not have time to correct it.
+
 
 ## Start the logic
 execute in a separate terminal:  
